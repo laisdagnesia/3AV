@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 function NavBarSite(props) {
@@ -13,6 +12,7 @@ function NavBarSite(props) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Início</Nav.Link>
+            <Nav.Link href="#comprar">Comprar</Nav.Link>
             <Nav.Link href="#link">Sobre</Nav.Link>
           </Nav>
         </Navbar.Collapse>
